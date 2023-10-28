@@ -1,0 +1,13 @@
+- Syntax
+- Comments
+- Variables
+- Data Types
+- Strings
+- String Formatting (recall C110 using %)
+- Booleans
+- Operators
+- Lists
+- If..Else
+- While Loops
+- For Loops
+- Functions
