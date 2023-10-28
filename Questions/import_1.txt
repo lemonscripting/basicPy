@@ -1,0 +1,25 @@
+Question:
+
+You have a right-angled triangle with one angle measuring x degrees. 
+The hypotenuse of the triangle is y units long. 
+Using Python's math library, calculate the length of the side opposite to the x-degree angle. 
+Provide your answer rounded to the nearest whole number.
+
+Sample Input:
+
+Angle (in degrees): 30
+Hypotenuse Length: 10
+
+Sample Output:
+
+Length of Opposite Side: 5
+
+
+
+HINTS [TRY NOT TO LOOK AT THIS]
+
+To solve this problem, you can use the formula:
+
+Length of Opposite Side = Hypotenuse Length * sin(Angle in Radians)
+
+First, convert the angle from degrees to radians using math.radians(), and then use math.sin() to calculate the sine of the angle. Multiply it by the hypotenuse length and round the result to the nearest whole number using round().

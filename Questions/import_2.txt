@@ -1,0 +1,27 @@
+Question:
+
+You are designing a pulley system for lifting a 500 kg weight. 
+The pulley system consists of two pulleys, one with a radius of X meters and the other with a radius of Y meters. 
+A rope is wrapped around both pulleys. 
+Using Python's math library, calculate the mechanical advantage of this pulley system. 
+Mechanical advantage is defined as the ratio of the force applied to lift the weight to the weight itself. Round your answer to two decimal places.
+
+Sample Input:
+
+Weight (in kilograms): 500
+Radius of Large Pulley (in meters): 0.2
+Radius of Small Pulley (in meters): 0.1
+
+Sample Output:
+
+Mechanical Advantage: 5.00
+
+
+
+HINTS [TRY NOT TO LOOK AT THIS]
+
+To solve this problem, you can use the following formula for mechanical advantage:
+
+Mechanical Advantage = (Radius of Large Pulley) / (Radius of Small Pulley)
+
+Calculate this ratio using the provided input values, and round the result to two decimal places.

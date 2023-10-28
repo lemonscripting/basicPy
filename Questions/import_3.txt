@@ -1,0 +1,25 @@
+Question:
+
+You are working on a physics experiment where you need to calculate the escape velocity of an object from the surface of a planet. 
+The planet has a mass of X kilograms, and its radius is Y meters. 
+Using Python's math library, determine the escape velocity required for an object to leave the planet's gravitational field. 
+Round your answer to two decimal places in meters per second (m/s).
+You are given tha G = 6.67430e-11 [Universal gravitational constant in m³ kg^(-1) s^(-2)]
+Sample Input:
+
+Planet Mass (in kilograms): 5.97e24
+Planet Radius (in meters): 6.371e6
+
+Sample Output:
+
+Escape Velocity: 11187.58 m/s
+
+
+
+HINTS [TRY NOT TO LOOK AT THIS]
+
+To calculate the escape velocity, you can use the formula:
+
+Escape Velocity = sqrt((2 * G * Planet Mass) / Planet Radius)
+
+Where G is the universal gravitational constant. You can use the math library to perform this calculation and round the result to two decimal places.
