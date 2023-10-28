@@ -1,0 +1,8 @@
+Sample output:
+Hello [User's name]!
+You are [User's age] year old.
+Zhishan is [Age] years old [Younger/Older] than you.
+Your favourite number of [User's favourite number].
+Double of the sum of your age and zhishan's age is [Age].
+The square of your favourite number if [Number].
+The float value of the sum of pi and your age is [Age].
