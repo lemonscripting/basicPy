@@ -1,0 +1,38 @@
+
+1.datermine your final output
+2.break down the question into smaller parts that you want to achieve
+3.determine if dependencies are needed
+
+#soh
+#toa
+#cah
+
+Example 1:
+
+import math 
+degrees = input("Angle (in degrees):")
+hypotenuse = input("Hypotenuse Length: ")
+opposite = hypotenuse * math.sin(degrees)
+print("Length of Opposite Side:", opposite)
+
+Example 2:
+
+import math 
+degrees = input("Angle (in degrees):")
+degrees_int = int(degrees)
+hypotenuse = input("Hypotenuse Length: ")
+hypotenuse_int = int(hypotenuse)
+opposite = hypotenuse_int * math.sin(degrees_int)
+print("Length of Opposite Side:", opposite)
+
+Example 3:
+
+import math 
+degrees = input("Angle (in degrees):")
+degrees_int = float(degrees)
+hypotenuse = input("Hypotenuse Length: ")
+hypotenuse_int = float(hypotenuse) 
+radians = math.radians(degrees_int)
+opposite = hypotenuse_int * math.sin(radians)
+formatted_opposite = "{:.0f}".format(opposite)
+print("Length of Opposite Side:", formatted_opposite)
