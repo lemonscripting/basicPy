@@ -27,7 +27,7 @@ my-var = "John"
 my var = "John"
 """
 
-# format of declaring : variable name = value
+# format of declaring : variable_name = value
 
 ## long variable names (easier for understanding and debugging)
 

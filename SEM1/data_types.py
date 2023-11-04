@@ -17,3 +17,11 @@ x = b"Hello"	                                #bytes	    bytes()
 x = bytearray(5)	                            #bytearray	bytearray()
 x = memoryview(bytes(5))	                    #memoryview	memoryview()
 x = None	                                    #NoneType   NA
+
+x = false
+
+
+user_input = input("enter a number")
+a = 5
+user_input_int = int(user_input)
+answer = a + user_input_int

@@ -24,4 +24,4 @@ Number of years (t): 5
 
 Sample Output:
 
-The final amount after 5 years is $1276.53
+The final amount after 5 years is  $1282.04 
