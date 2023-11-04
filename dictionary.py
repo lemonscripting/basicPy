@@ -69,4 +69,40 @@ if 1964 in dict.values():
   print("Yes, 'model' is one of the values in the dict dictionary")
 
 #update value sets
-thisdict.update({"year": 2020})
+#changes the value of "year" to 2020
+dict.update({"year": 2020})
+
+#adding items
+#creates an element called color that is set to red
+#method 1 
+dict["color"] = "red"
+
+#method 2
+#update() functions can not only change values but also add values
+dict.update({"color": "red"})
+
+#remove items
+#similiar to arrays can use the .pop() function
+#method 1
+dict.pop("model")
+
+#method 2
+#using "del" keyword. only works in deleting the key 
+del dict["model"]
+
+#deleting the entire dictionary
+del dict
+
+#remove key and items in a dictionary
+#usually used in reset function or init
+dict.clear()
+
+#copying dictionaries
+#copy() function
+#method 1
+otherDict = dict.copy()
+
+#method 2
+otherDict = dict
+print(dict)
+
