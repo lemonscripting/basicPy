@@ -1,0 +1,18 @@
+Question: Write a Python program that prompts the user to enter the number of data sets, then allows them to input names and ages for the specified number of data sets. After collecting the data, it displays the information in a tabular format. Can you explain the purpose of using dict and how the data is structured within it?
+
+Sample Input:
+Enter the number of data sets: 3
+Enter a name: Alice
+Enter an age: 25
+Enter a name: Bob
+Enter an age: 30
+Enter a name: Carol
+Enter an age: 22
+
+Sample Output:
+Name    Age
+Alice   25
+Bob     30
+Carol   22
+
+

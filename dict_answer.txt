@@ -1,0 +1,11 @@
+dict = {}
+count = int(input("Enter the number of data sets: "))
+
+for i in range(count):
+    name = input("Enter a name: ")
+    age = input("Enter an age: ")
+    dict.update({name: age})
+
+print("Name\tAge")
+for name, age in dict.items():
+    print(f"{name}\t{age}")
